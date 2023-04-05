@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=M+PLUS+1p&display=swap');
+
+/*
+font-family: 'Kiwi Maru', serif;
+font-family: 'M PLUS 1p', sans-serif;
+*/
+
+
+/*全体設定*/
+*{
+  box-sizing: border-box;
+}
+  
+body{
+  margin: 0;
+  font-family: 'Kiwi Maru', serif;
+}
+  
+a{
+  text-decoration: none;
+}
+  
+.container{
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.contain{
+  width: 80%;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.window{
+  text-align: left;
+  flex-wrap: wrap;
+  border-radius: 20px;
+	padding: 1% 6% 2% 6%;
+	background-color: #fff;
+	border-bottom: 5px solid #b5cdfb;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 3em;
+}
+
+*,*:before,*:after{
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+  
+html{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/*ヘッダー*/
+header{
+  height: 65px;
+  width: 100%;
+  background-color: #3f72af;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left{
+  font-size:36px;
+  color:#fff;
+  float: left;
+  padding: 4px;
+}
+
+.header-right{
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a{
+  font-size:16px;
+  font-weight:600;
+  line-height: 65px;
+  padding: 0 25px;
+  color: #fff;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover{
+  background-color: rgba(255,255,255,0.3);
+}
+
+/*アーカイブ*/  
+.preview{
+  background-color: #dbe2ef;
+}
+
+.preview .art-window{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.preview .contain{
+  padding: 0px 0 20px 0;
+  background-size: cover;
+  color: #000;
+  text-align: center;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.preview article{
+  flex: 1 1 320px;
+  display: flex;
+}
+
+.preview h1{
+  font-size: 20px;
+}
+
+.preview p{
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.preview .art-photo{
+  min-height: 150px;
+  background-position: center;
+  background-size: cover;
+}
+
+.preview a{
+  flex: 1;
+  margin: 10px;
+  display: block;
+	background-color: #fff;
+	border-bottom: 5px solid #b5cdfb;
+  border-radius: 20px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.preview a:hover {
+  opacity: 0.8;
+}
+
+.preview .art-text{
+  margin: 6px;
+}
+
+.art-photo{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.tagg{
+  color: #000;
+  background-color: #fff;
+  border-radius: 40px;
+  font-family: 'Kiwi Maru', serif;;
+  border: 2px solid #bbcdfa;
+}
+
+.tagg:hover{
+  background-color: #dde2ef;
+}
+
+/*トップページ*/
+.toppage{
+  padding: 70px 0 10px 0;
+  background-color: #dbe2ef;
+  background-size: cover;
+  text-align: center;
+}
+
+.toppage .window{
+  width: 80%;
+  margin-top: 20px;
+}
+
+.toppage h1{
+  opacity: 0.9;
+  font-size: calc(24px + 1vw);
+  letter-spacing: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #2e2e2e;
+}
+
+.toppage h2{
+  opacity: 1.0;
+  font-size: calc(24px + 1vw);
+  letter-spacing: 5px;
+  color: #2e2e2e;
+}
+  
+.toppage p{
+  opacity: 1.0;
+  font-size: calc(12px + 0.5vw);
+  font-family: 'M PLUS 1p', sans-serif;
+  color: #2e2e2e;
+}
+
+/*ヘッドライン*/
+.headline{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #dbe2ef;
+}
+
+.headline .window{
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.headline h1{
+  opacity: 0.9;
+  font-size: calc(24px);
+  letter-spacing: 5px;
+}
+
+.headline h2{
+  opacity: 1.0;
+  font-size: calc(18px + 0.5vw);
+
+  border-bottom: solid 1px #808080;
+  padding-bottom: 6px;
+  color: #2e2e2e;
+}
+  
+.headline p{
+  opacity: 1.0;
+  font-size: calc(10px + 0.5vw);
+  font-family: 'M PLUS 1p', sans-serif;
+  margin-top: 5px;
+  color: #494949;
+}
+
+.headline .p-str{
+  opacity: 1.0;
+  font-size: calc(12px + 0.5vw);
+  font-family: 'M PLUS 1p', sans-serif;
+  margin-bottom: 5px;
+
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 4px #7db4e6;/*左線*/
+}
+
+.top-window{
+  text-align: left;
+  width: 80%;
+  flex-wrap: wrap;
+  border-radius: 20px;
+	padding: 1% 6% 2% 6%;
+	background-color: #fff;
+	border-bottom: 5px solid #b5cdfb;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 3em;
+}
+
+.cent{
+  text-align: center;
+}
+
+/*フッター*/
+footer{
+  height: 90px;
+  background-color: #112d4e;
+}
+
+footer a{
+  color: #fff;
+}
+
+.site_cr{
+  width: 75%;
+  font-size: calc(12px + 1.5vw);
+  float: left;
+  padding-top: 24px;
+  padding-left: 30px;
+}
+
+.site_legal{
+  width: 25%;
+  font-size: calc(8px + 2vw);
+  float: left;
+  padding-top: 24px;
+  padding-right: 30px;
+}
+
+/*吹き出し*/
+.balloon-set-box {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10%;
+}
+
+.balloon-set-box { /* 左 */
+  flex-direction: row;
+}
+
+.balloon {
+  position: relative; /* 三角の位置を固定するために設定 */
+  display: inline-block;
+  margin: 20px 20px 20px; /* 上 左右 下のマージン */
+  padding: 8px 15px; /* ふきだし内の余白 */
+  background: #dbe2ef; /* 背景色 */
+  text-align: left; /* テキストの揃え */
+  border-radius: 15px;
+  font-size: calc(12px + 0.5vw);
+  margin-bottom: 40px;
+  font-family: 'M PLUS 1p', sans-serif;
+  max-width: 70%;
+}
+
+.balloon::after {
+  content: '';
+  border: 14px solid transparent;
+  border-top-color: #dbe2ef;
+  position: absolute;
+  top: 0;
+  left: -10px;
+}
+
+.icon-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  border: 2px solid #5f5d60;
+}
+
+.icon-box p{
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    color: #000;
+    margin-top: -6px;
+}
+
+
+/**/
+@media all and (max-width: 1000px) {
+}
+
+
+/**/
+@media all and (max-width: 750px) {
+  .balloon {
+    position: relative; /* 三角の位置を固定するために設定 */
+    display: inline-block;
+    margin: 20px 20px 20px; /* 上 左右 下のマージン */
+    padding: 8px 15px; /* ふきだし内の余白 */
+    background: #dbe2ef; /* 背景色 */
+    text-align: left; /* テキストの揃え */
+    border-radius: 15px;
+    font-size: calc(12px + 0.5vw);
+    margin-bottom: 40px;
+    font-family: 'M PLUS 1p', sans-serif;
+    max-width: 50%;
+  }
+}
+
+
+/**/
+@media all and (max-width: 670px) {
+}

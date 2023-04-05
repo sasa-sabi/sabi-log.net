@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=M+PLUS+1p&display=swap');
+
+/*
+font-family: 'Kiwi Maru', serif;
+font-family: 'M PLUS 1p', sans-serif;
+*/
+
+
+/*全体設定*/
+*{
+  box-sizing: border-box;
+}
+  
+body{
+  margin: 0;
+  font-family: 'Kiwi Maru', serif;
+}
+  
+a{
+  text-decoration: none;
+}
+  
+.container{
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.window{
+  text-align: left;
+  width: 75%;
+  flex-wrap: wrap;
+  border-radius: 20px;
+	padding: 1% 6% 2% 6%;
+	background-color: #fff;
+	border-bottom: 5px solid #b5cdfb;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 3em;
+}
+
+*,*:before,*:after{
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+  
+html{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/*ヘッダー*/
+header{
+  height: 65px;
+  width: 100%;
+  background-color: #3f72af;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left{
+  font-size:36px;
+  color:#fff;
+  float: left;
+  padding: 4px;
+}
+
+.header-right{
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a{
+  font-size:16px;
+  font-weight:600;
+  line-height: 65px;
+  padding: 0 25px;
+  color: #fff;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover{
+  background-color: rgba(255,255,255,0.3);
+}
+
+
+/*ウェルカム*/  
+.toppage{
+  padding: 120px 0 100px 0;
+  background-image: url(../images/toppage/top.png);
+  background-size: cover;
+  color: #000;
+  text-align: center;
+}
+  
+.toppage h1{
+  opacity: 0.9;
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+  
+.toppage p{
+  opacity: 1.0;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+  
+.top_button{
+  font-size:16px;
+  text-align: center;
+}
+  
+.top_button p{
+  margin-bottom: 20px;
+}
+
+.latest{
+  background-color: #3b5998;
+  margin-right: 10px;
+  border:1.5px solid #2d4374;
+}
+
+.tag{
+  background-color: #ffca39;
+  border:1.5px solid #db9511;
+}
+
+.twitter{
+  background-color: #55acee;
+  border:1.5px solid #448cc4;
+}
+
+.btn{
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover{
+  color: #b3aeb5;
+}
+
+.top-size h1{
+  font-size: calc(24px + 2vw);
+}
+
+.top-size p{
+  font-size: calc(18px + 0.5vw);
+}
+
+/*ヘッドライン*/
+.headline{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #dbe2ef;
+}
+
+.headline .window{
+  width:calc(80% - 5vw);
+}
+
+.headline h1{
+  opacity: 0.9;
+  font-size: calc(24px);
+  letter-spacing: 5px;
+}
+
+.headline h2{
+  opacity: 1.0;
+  font-size: calc(18px + 0.5vw);
+}
+  
+.headline p{
+  opacity: 1.0;
+  font-size: calc(10px + 0.5vw);
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+.genre{
+  height:350px;
+  max-width: 180px;
+  background-color: #fff;
+  border: 2px solid #5f5d60;
+  float: left;
+  margin:30px 10px 0px 10px;
+}
+
+.genre h2{
+  color:#000;
+  font-size: 24px;
+}
+
+.genre p{
+  color:#000;
+  font-size: 18px;
+}
+
+.genre-icon-game{
+  width:170px;
+  height:170px;
+  background-image: url(../images/toppage/game-icon.png);
+  background-size: cover;
+  position: relative;
+}
+
+.genre-icon-invent{
+  width:170px;
+  height:170px;
+  background-image: url(../images/toppage/3d-icon.png);
+  background-size: cover;
+  position: relative;
+}
+
+.genre-icon-study{
+  width:170px;
+  height:170px;
+  background-image: url(../images/toppage/study-icon.png);
+  background-size: cover;
+  position: relative;
+}
+
+.genre-icon-diary{
+  width:170px;
+  height:170px;
+  background-image: url(../images/toppage/diary-icon.png);
+  background-size: cover;
+  position: relative;
+}
+
+.genre-title{
+  font-size: 24px;
+  text-align:center;
+}
+
+.genre-text{
+  font-size: 13px;
+}
+
+.genres{
+  background-size: cover;
+  color: #000;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+}
+
+/*フッター*/
+footer{
+  height: 5vw;
+  background-color: #112d4e;
+}
+
+footer a{
+  color: #fff;
+}
+
+.site_cr{
+  width: 75%;
+  font-size: calc(20px + 0.5vw);
+  float: left;
+  padding-top: 24px;
+  padding-left: 30px;
+}
+
+.site_legal{
+  width: 25%;
+  font-size: calc(16px + 0.5vw);
+  float: left;
+  padding-top: 24px;
+  padding-right: 30px;
+}
+
+/*吹き出し*/
+.balloon-set-box {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10%;
+}
+
+.balloon-set-box { /* 左 */
+  flex-direction: row;
+}
+
+.balloon {
+  position: relative; /* 三角の位置を固定するために設定 */
+  display: inline-block;
+  margin: 20px 20px 20px; /* 上 左右 下のマージン */
+  padding: 8px 15px; /* ふきだし内の余白 */
+  background: #dbe2ef; /* 背景色 */
+  text-align: left; /* テキストの揃え */
+  border-radius: 15px;
+  font-size: calc(10px + 0.5vw);
+  margin-bottom: 40px;
+  font-family: 'M PLUS 1p', sans-serif;
+  max-width: 70%;
+}
+
+.balloon::after {
+  content: '';
+  border: 14px solid transparent;
+  border-top-color: #dbe2ef;
+  position: absolute;
+  top: 0;
+  left: -10px;
+}
+
+.icon-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  border: 2px solid #5f5d60;
+}
+
+.icon-box p{
+    text-align: center;
+    position: relative;
+    font-size: calc(10px+0.5vw);
+    color: #000;
+    margin-top: -6px;
+}
+
+/**/
+@media all and (max-width: 1000px) {
+}
+
+
+/**/
+@media all and (max-width: 750px) {
+  .balloon {
+    position: relative; /* 三角の位置を固定するために設定 */
+    display: inline-block;
+    margin: 20px 20px 20px; /* 上 左右 下のマージン */
+    padding: 8px 15px; /* ふきだし内の余白 */
+    background: #dbe2ef; /* 背景色 */
+    text-align: left; /* テキストの揃え */
+    border-radius: 15px;
+    font-size: calc(12px + 0.5vw);
+    margin-bottom: 40px;
+    font-family: 'M PLUS 1p', sans-serif;
+    max-width: 50%;
+  }
+}
+
+
+/**/
+@media all and (max-width: 670px) {
+}
