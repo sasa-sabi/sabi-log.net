@@ -36,6 +36,7 @@
 	<title>トップページ - 笹錆ログ</title> <!-- 必ず書き直す -->
 
 	<link rel="stylesheet" media="all" href="css/stylesheet.css">
+	<script src="javascript/hamburg.js"></script>
 
 	<meta name="robots" content="noindex,nofollow">
 </head>
@@ -43,14 +44,32 @@
 <body>
   <header>
     <div class="container">
-      <a class="header-left" href="#"> 笹錆ログ </a>
-      <div class="header-right">
+      <a class="header-left" href="#"> 笹錆ログ</a>
+
+      <div class="header-right pc-head">
         <a href="#">日替わり</a>
         <a href="archive.html">記事</a>
         <a href="profile.html">プロフィール</a>
       </div>
+
+      <div class="header-right hamburger-menu" id="js-hamburger">
+        <div class="hamburger-menu-line"></div>
+        <div class="hamburger-menu-line"></div>
+        <div class="hamburger-menu-line"></div>
+      </div>
+
+      <nav class="navigation-menu" id="js-nav">
+        <ul>
+          <li class="nav-top"></li>
+          <li><a href="#">日替わり</a></li>
+          <li><a href="archive.html">記事</a></li>
+          <li><a href="profile.html">プロフィール</a></li>
+        </ul>
+      </nav>
+
     </div>
   </header>
+  
   <div class="toppage top-size">
     <div class="container">
       <h1>Welcome<br>ゴミ捨て場にようこそ</h1><br>
@@ -116,10 +135,10 @@
   <footer>
     <div class="container">
       <div class="site_cr">
-        <a>Copyright(c) 2022 杉山隆弘</a>
+        <a>2023- ©笹錆</a>
       </div>
       <div class="site_legal">
-        <a href="legal.html">Legal Info</a>
+        <a href="legal.html">Legal</a>
       </div>
     </div>
   </footer>
