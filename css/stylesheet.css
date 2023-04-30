@@ -266,19 +266,22 @@ header{
 
 .headline h1{
   opacity: 0.9;
-  font-size: calc(24px);
+  font-size: 36px;
   letter-spacing: 5px;
+  color: 2e2e2e;
 }
 
 .headline h2{
   opacity: 1.0;
-  font-size: calc(18px + 0.5vw);
+  font-size: 24px;
+  color: 2e2e2e;
 }
   
 .headline p{
   opacity: 1.0;
-  font-size: calc(10px + 0.5vw);
+  font-size: 16px;
   font-family: 'M PLUS 1p', sans-serif;
+  color: 333333;
 }
 
 .genre{
@@ -364,7 +367,7 @@ footer a{
 }
 
 .site_cr{
-  width: 75%;
+  width: 60%;
   font-size: calc(20px + 0.5vw);
   float: left;
   padding-top: 14px;
@@ -372,7 +375,7 @@ footer a{
 }
 
 .site_legal{
-  width: 25%;
+  width: 40%;
   font-size: calc(16px + 0.5vw);
   float: left;
   padding-top: 16px;
@@ -384,7 +387,7 @@ footer a{
 .balloon-set-box {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 10%;
+  padding-left: 5%;
 }
 
 .balloon-set-box { /* 左 */
@@ -402,7 +405,7 @@ footer a{
   font-size: calc(10px + 0.5vw);
   margin-bottom: 40px;
   font-family: 'M PLUS 1p', sans-serif;
-  max-width: 70%;
+  max-width: 80%;
 }
 
 .balloon::after {
@@ -419,15 +422,10 @@ footer a{
   height: 60px;
 }
 
-.icon{
-  border-radius: 4px;
-  border: 2px solid #5f5d60;
-}
-
 .icon-box p{
     text-align: center;
     position: relative;
-    font-size: calc(10px+0.5vw);
+    font-size: 16px;
     color: #000;
     margin-top: -6px;
 }
@@ -450,7 +448,35 @@ footer a{
     font-size: calc(12px + 0.5vw);
     margin-bottom: 40px;
     font-family: 'M PLUS 1p', sans-serif;
-    max-width: 50%;
+    max-width: 70%;
+  }
+
+  .headline .window{
+    width:98%;
+  }
+
+  .site_cr{
+    width: 60%;
+    font-size: 24px;
+    float: left;
+    padding-top: 14px;
+    padding-left: 30px;
+  }
+  
+  .site_legal{
+    width: 40%;
+    font-size: 20px;
+    float: left;
+    padding-top: 16px;
+    padding-right: 70px;
+    text-align: right;
+  }
+
+  .container{
+    width: 95%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
   }
 }
 
