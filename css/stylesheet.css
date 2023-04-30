@@ -32,7 +32,7 @@ a{
   width: 75%;
   flex-wrap: wrap;
   border-radius: 20px;
-	padding: 1% 6% 2% 6%;
+	padding: 1% 6% 1% 6%;
 	background-color: #fff;
 	border-bottom: 5px solid #b5cdfb;
   margin-top: 20px;
@@ -196,7 +196,6 @@ header{
 }
   
 .toppage h1{
-  opacity: 0.9;
   font-size: 60px;
   letter-spacing: 5px;
 }
@@ -397,12 +396,12 @@ footer a{
 .balloon {
   position: relative; /* 三角の位置を固定するために設定 */
   display: inline-block;
-  margin: 20px 20px 20px; /* 上 左右 下のマージン */
+  margin: 20px 0px 0 15px; /* 上 左右 下のマージン */
   padding: 8px 15px; /* ふきだし内の余白 */
   background: #dbe2ef; /* 背景色 */
   text-align: left; /* テキストの揃え */
   border-radius: 15px;
-  font-size: calc(10px + 0.5vw);
+  font-size: 15px;
   margin-bottom: 40px;
   font-family: 'M PLUS 1p', sans-serif;
   max-width: 80%;
@@ -430,6 +429,11 @@ footer a{
     margin-top: -6px;
 }
 
+.icon{
+  width: 60px;
+  height: 60px;
+}
+
 /**/
 @media all and (max-width: 1000px) {
 }
@@ -437,15 +441,25 @@ footer a{
 
 /**/
 @media all and (max-width: 750px) {
+  .balloon-set-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+  
+  .balloon-set-box { /* 左 */
+    flex-direction: row;
+  }
+
   .balloon {
     position: relative; /* 三角の位置を固定するために設定 */
     display: inline-block;
-    margin: 20px 20px 20px; /* 上 左右 下のマージン */
+    margin: 20px 0px 0 15px; /* 上 左右 下のマージン */
     padding: 8px 15px; /* ふきだし内の余白 */
     background: #dbe2ef; /* 背景色 */
     text-align: left; /* テキストの揃え */
     border-radius: 15px;
-    font-size: calc(12px + 0.5vw);
+    font-size: 15px;
     margin-bottom: 40px;
     font-family: 'M PLUS 1p', sans-serif;
     max-width: 70%;
@@ -468,7 +482,7 @@ footer a{
     font-size: 20px;
     float: left;
     padding-top: 16px;
-    padding-right: 70px;
+    padding-right: 40px;
     text-align: right;
   }
 
@@ -493,5 +507,44 @@ footer a{
 
   .navigation-menu{
     display: block;
+  }
+  
+  .icon-box {
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon{
+    width: 50px;
+    height: 50px;
+  }
+
+  .site_cr{
+    width: 50%;
+    font-size: 20px;
+    float: left;
+    padding-top: 14px;
+    padding-left: 30px;
+  }
+  
+  .site_legal{
+    width: 50%;
+    font-size: 20px;
+    float: left;
+    padding-top: 16px;
+    padding-right: 40px;
+    text-align: right;
+  }
+
+  .navigation-menu{
+    width: 60%;
+  }
+
+  .top-size h1{
+    font-size: 28px;
+  }
+  
+  .top-size p{
+    font-size: 18px;
   }
 }
