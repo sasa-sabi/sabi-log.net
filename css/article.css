@@ -197,41 +197,6 @@ header{
 }
 
 .preview .art-window{
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.preview .contain{
-  padding: 0px 0 20px 0;
-  background-size: cover;
-  color: #000;
-  text-align: center;
-
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.preview article{
-  flex: 1 1 320px;
-  display: flex;
-}
-
-.preview h1{
-  font-size: 20px;
-}
-
-.preview p{
-  font-size: 16px;
-  opacity: 0.8;
-}
-
-.preview .art-photo{
-  min-height: 150px;
-  background-position: center;
-  background-size: cover;
-}
-
-.preview a{
   flex: 1;
   margin: 10px;
   display: block;
@@ -242,12 +207,45 @@ header{
   text-decoration: none;
 }
 
-.preview a:hover {
+.preview .contain{
+  padding: 0px 0 20px 0;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.preview a{
+  color: #2e2e2e;
+}
+
+.preview article{
+  flex: 1 1 320px;
+}
+
+.preview h1{
+  font-size: 20px;
+}
+
+.preview p{
+  font-size: 16px;
+  opacity: 0.8;
+  color: #000;
+}
+
+.preview .art-photo{
+  min-height: 150px;
+  background-position: center;
+  background-size: cover;
+}
+
+.preview .art-window:hover {
   opacity: 0.8;
 }
 
 .preview .art-text{
   margin: 6px;
+  color: #2e2e2e;
 }
 
 .art-photo{
@@ -256,15 +254,53 @@ header{
 }
 
 .tagg{
-  color: #000;
+  color: #2e2e2e;
   background-color: #fff;
-  border-radius: 40px;
-  font-family: 'Kiwi Maru', serif;;
+  border-radius: 30px;
+  font-family: 'Kiwi Maru', serif;
   border: 2px solid #bbcdfa;
+  font-size: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .tagg:hover{
   background-color: #dde2ef;
+  z-index: 10;
+}
+
+.pages{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.top-pages{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.now-page{
+  color: #2e2e2e;
+  background-color: #dde2ef;
+  border-radius: 30px;
+  font-family: 'Kiwi Maru', serif;
+  border: 2px solid #bbcdfa;
+  font-size: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 5px;
+}
+
+.page{
+  color: #2e2e2e;
+  background-color: #ffffff;
+  border-radius: 30px;
+  font-family: 'Kiwi Maru', serif;
+  border: 2px solid #bbcdfa;
+  font-size: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 5px;
 }
 
 /*トップページ*/
@@ -313,7 +349,6 @@ header{
 .headline .window{
   width: 80%;
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .headline h1{
@@ -383,6 +418,49 @@ header{
 .cent-img{
   display: block;
   margin: auto;
+}
+
+.art-image{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 640px;
+}
+
+.art-memo{
+  background-color: #dbe2ef;
+  color: #fff;
+  margin: 20px auto;
+  padding: 2em;
+  position: relative;
+  border: 2px dashed #fff;
+  box-shadow: 0 0 0 2px #dbe2ef;
+  width: 80%;
+}
+
+.art-memo p{
+  font-size: 16px;
+  opacity: 1.0;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: 'Kiwi Maru', serif;
+  text-align: center;
+}
+
+.art-memo h2{
+  font-size: 18px;
+  opacity: 1.0;
+  border-bottom: none;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-bottom: 0;
+}
+
+.memo-text{
+  text-decoration:underline wavy #8ca2cb
 }
 
 /*フッター*/
@@ -462,10 +540,33 @@ footer a{
 .icon{
   width: 60px;
   height: 60px;
+  border-radius: 6px;
 }
 
 /**/
 @media all and (max-width: 1000px) {
+  .container{
+    width: 95%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .contain{
+    width: 95%;
+  }
+
+  .toppage .window{
+    width:98%;
+  }
+
+  .headline .top-window{
+    width: 98%;
+  }
+
+  .headline .window{
+    width: 98%;
+  }
 }
 
 /**/
@@ -492,18 +593,6 @@ footer a{
     margin-bottom: 40px;
     font-family: 'M PLUS 1p', sans-serif;
     max-width: 70%;
-  }
-
-  .toppage .window{
-    width:98%;
-  }
-
-  .headline .top-window{
-    width: 98%;
-  }
-
-  .headline .window{
-    width: 98%;
   }
 
   .site_cr{
@@ -557,6 +646,7 @@ footer a{
   .icon{
     width: 50px;
     height: 50px;
+    border-radius: 5px;
   }
 
   .site_cr{
