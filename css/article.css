@@ -418,6 +418,7 @@ header{
 .cent-img{
   display: block;
   margin: auto;
+  border-radius: 10px;
 }
 
 .art-image{
@@ -427,7 +428,7 @@ header{
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
-  width: 640px;
+  width: 60%;
 }
 
 .art-memo{
@@ -543,8 +544,53 @@ footer a{
   border-radius: 6px;
 }
 
+/* Twitter風表示 */
+.twitter_block{
+  width: 100%;
+  display: block;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: solid 1px #3e3e3e;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.twitter_block figure{
+  width: 50px;
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 50px;
+}
+
+.twitter_icon{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.twitter_name{
+  font-family: 'M PLUS 1p', sans-serif;
+  height: 50px;
+  font-size: 14px;
+}
+
+.font_name br{
+  height: 3px;
+}
+
 /**/
 @media all and (max-width: 1000px) {
+  .art-image{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 90%;
+  }
+
   .container{
     width: 95%;
     margin: 0 auto;
