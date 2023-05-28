@@ -465,14 +465,14 @@ footer a{
     position: relative; /* 三角の位置を固定するために設定 */
     display: inline-block;
     margin: 20px 0px 0 15px; /* 上 左右 下のマージン */
-    padding: 8px 15px; /* ふきだし内の余白 */
+    padding: 4px; /* ふきだし内の余白 */
     background: #dbe2ef; /* 背景色 */
     text-align: left; /* テキストの揃え */
     border-radius: 15px;
     font-size: 15px;
     margin-bottom: 40px;
     font-family: 'M PLUS 1p', sans-serif;
-    max-width: 70%;
+    max-width: 80%;
   }
 
   .site_cr{
@@ -508,13 +508,13 @@ footer a{
   }
   
   .icon-box {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
   }
 
   .icon{
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     border-radius: 5px;
   }
 
