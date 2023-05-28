@@ -465,7 +465,7 @@ footer a{
     position: relative; /* 三角の位置を固定するために設定 */
     display: inline-block;
     margin: 20px 0px 0 15px; /* 上 左右 下のマージン */
-    padding: 4px; /* ふきだし内の余白 */
+    padding: 8px 15px; /* ふきだし内の余白 */
     background: #dbe2ef; /* 背景色 */
     text-align: left; /* テキストの揃え */
     border-radius: 15px;
