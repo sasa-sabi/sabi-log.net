@@ -638,7 +638,7 @@ footer a{
     font-size: 15px;
     margin-bottom: 40px;
     font-family: 'M PLUS 1p', sans-serif;
-    max-width: 70%;
+    max-width: 80%;
   }
 
   .site_cr{
@@ -685,13 +685,13 @@ footer a{
   }
 
   .icon-box {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
   }
 
   .icon{
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     border-radius: 5px;
   }
 
