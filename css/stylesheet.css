@@ -189,7 +189,7 @@ header{
 /*ウェルカム*/  
 .toppage{
   padding: 120px 0 100px 0;
-  background-image: url(../images/toppage/top.png);
+  background-image: url(https://res.cloudinary.com/dtifkcohv/image/upload/v1687189207/system%20images/toppage/top_ffq3bn.png);
   background-size: cover;
   color: #000;
   text-align: center;
