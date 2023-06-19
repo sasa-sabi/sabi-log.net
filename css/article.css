@@ -304,6 +304,12 @@ header{
 }
 
 /*トップページ*/
+.ar-link{
+  font-size: 16px;
+  color: #649aff;
+  text-decoration: underline;
+}
+
 .toppage{
   padding: 70px 0 10px 0;
   background-color: #dbe2ef;
@@ -542,41 +548,6 @@ footer a{
   width: 60px;
   height: 60px;
   border-radius: 6px;
-}
-
-/* Twitter風表示 */
-.twitter_block{
-  width: 100%;
-  display: block;
-  padding: 10px;
-  margin-bottom: 5px;
-  border: solid 1px #3e3e3e;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.twitter_block figure{
-  width: 50px;
-  padding: 0;
-  margin: 0;
-  float: left;
-  width: 50px;
-}
-
-.twitter_icon{
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-
-.twitter_name{
-  font-family: 'M PLUS 1p', sans-serif;
-  height: 50px;
-  font-size: 14px;
-}
-
-.font_name br{
-  height: 3px;
 }
 
 /**/
