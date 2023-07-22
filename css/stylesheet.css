@@ -405,10 +405,15 @@ footer a{
   background: #dbe2ef; /* 背景色 */
   text-align: left; /* テキストの揃え */
   border-radius: 15px;
-  font-size: 15px;
-  margin-bottom: 40px;
-  font-family: 'M PLUS 1p', sans-serif;
+  margin-bottom: 20px;
   max-width: 80%;
+}
+
+.balloon p {
+  font-size: 15px;
+  font-family: "M PLUS 1p", sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .balloon::after {
@@ -445,11 +450,15 @@ footer a{
     width:98%;
   }
 
-  .container{
-    width: 100%;
+  .container {
+    width: 95%;
     margin: 0 auto;
     flex-wrap: wrap;
     margin: 0 auto;
+  }
+
+  .contain {
+    width: 95%;
   }
 }
 
@@ -473,10 +482,15 @@ footer a{
     background: #dbe2ef; /* 背景色 */
     text-align: left; /* テキストの揃え */
     border-radius: 15px;
-    font-size: 15px;
-    margin-bottom: 40px;
-    font-family: 'M PLUS 1p', sans-serif;
+    margin-bottom: 20px;
     max-width: 80%;
+  }
+
+  .balloon p {
+  font-size: 15px;
+  font-family: "M PLUS 1p", sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
   }
 
   .site_cr{
