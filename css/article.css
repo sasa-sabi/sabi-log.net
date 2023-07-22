@@ -441,8 +441,8 @@ header {
 .topiconimg {
   display: block;
   margin: auto;
-  width: 70px;
-  height: 70px;
+  width: 64px;
+  height: 64px;
   padding-top: 4px;
 }
 
@@ -921,4 +921,63 @@ footer a {
   .navigation-menu {
     width: 60%;
   }
+}
+
+@media all and (max-width: 600px){
+  .topTagIcon {
+  width: 70px;
+  height: 70px;
+  color: #2e2e2e;
+  background-color: #b5cdfb;
+  font-size: 16px;
+  letter-spacing: -2px;
+  border-radius: 10px;
+  margin: 0 4px 0 0;
+  border-bottom: 4px solid #5684bd;
+  display: flex;
+}
+
+.topTwitterIcon {
+  width: 70px;
+  height: 70px;
+  color: #2e2e2e;
+  background-color: #b5cdfb;
+  font-size: 16px;
+  letter-spacing: -2px;
+  border-radius: 10px;
+  margin: 0 4px 0 4px;
+  border-bottom: 4px solid #5684bd;
+}
+
+.topIssueIcon {
+  width: 70px;
+  height: 70px;
+  color: #2e2e2e;
+  background-color: #b5cdfb;
+  font-size: 16px;
+  letter-spacing: -2px;
+  border-radius: 10px;
+  margin: 0 4px 0 4px;
+  border-bottom: 4px solid #5684bd;
+}
+
+.topTimeIcon {
+  width: 70px;
+  height: 70px;
+  color: #2e2e2e;
+  background-color: #b5cdfb;
+  font-size: 16px;
+  letter-spacing: -2px;
+  border-radius: 10px;
+  margin: 0 0 0 4px;
+  border-bottom: 4px solid #5684bd;
+}
+
+.topiconimg {
+  display: block;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  padding-top: 4px;
+}
 }
