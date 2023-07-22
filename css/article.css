@@ -925,12 +925,12 @@ footer a {
 
 @media all and (max-width: 600px){
   .topTagIcon {
-  width: 64px;
-  height: 64px;
+  width: 70px;
+  height: 70px;
   color: #2e2e2e;
   background-color: #b5cdfb;
   font-size: 16px;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   border-radius: 10px;
   margin: 0 4px 0 0;
   border-bottom: 4px solid #5684bd;
@@ -938,36 +938,36 @@ footer a {
 }
 
 .topTwitterIcon {
-  width: 64px;
-  height: 64px;
+  width: 70px;
+  height: 70px;
   color: #2e2e2e;
   background-color: #b5cdfb;
   font-size: 16px;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   border-radius: 10px;
   margin: 0 4px 0 4px;
   border-bottom: 4px solid #5684bd;
 }
 
 .topIssueIcon {
-  width: 64px;
-  height: 64px;
+  width: 70px;
+  height: 70px;
   color: #2e2e2e;
   background-color: #b5cdfb;
   font-size: 16px;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   border-radius: 10px;
   margin: 0 4px 0 4px;
   border-bottom: 4px solid #5684bd;
 }
 
 .topTimeIcon {
-  width: 64px;
-  height: 64px;
+  width: 70px;
+  height: 70px;
   color: #2e2e2e;
   background-color: #b5cdfb;
   font-size: 16px;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   border-radius: 10px;
   margin: 0 0 0 4px;
   border-bottom: 4px solid #5684bd;
@@ -976,8 +976,8 @@ footer a {
 .topiconimg {
   display: block;
   margin: auto;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   padding-top: 4px;
 }
 }
