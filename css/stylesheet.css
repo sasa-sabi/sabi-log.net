@@ -389,7 +389,7 @@ footer a{
 /*吹き出し*/
 .balloon-set-box {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding-left: 5%;
 }
 
@@ -426,7 +426,7 @@ footer a{
 }
 
 .icon-box {
-  width: 60px;
+  width: 100px;
   height: 60px;
 }
 
@@ -466,7 +466,7 @@ footer a{
 @media all and (max-width: 750px) {
   .balloon-set-box {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding-left: 0;
   }
   
@@ -526,13 +526,13 @@ footer a{
   }
   
   .icon-box {
-    width: 35px;
-    height: 35px;
+    width: 60px;
+    height: 45px;
   }
 
   .icon{
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 5px;
   }
 
