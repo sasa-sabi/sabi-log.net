@@ -38,6 +38,7 @@
 
 	<link rel="stylesheet" media="all" href="../css/article.css">
   <script src="../javascript/hamburg.js"></script>
+  <script src="../javascript/code_hide.js"></script>
 
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0EMMB2N6XP"></script>
@@ -124,7 +125,8 @@
 		<br>パパっと作って記事にしたいのでHTMLでいいか。
 		<br>まずHTMLをこのように記述します。
 		</p>
-		<pre class="code html"><code>&lt;!DOCTYPE html&gt;
+    <a class="code_hide_button" onclick="toggleContent('codeContent1')">コードの表示</a>
+		<pre class="code html"><code id="codeContent1" style="display:none">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
     &lt;title&gt;editor&lt;/title&gt;
