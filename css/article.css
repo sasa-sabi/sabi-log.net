@@ -642,6 +642,26 @@ font-family: 'Biryani', sans-serif;
   border-radius: 100vh;
 }
 
+.code_all_button {
+  font-size: 18px;
+  padding: 10px 10px;
+  margin: 0 auto;
+  border-bottom: solid 4px #5684bd;
+  background-color: #b5cdfb;
+  cursor: pointer;
+  border-radius: 100vh;
+  display: table;
+  font-weight: bold;
+}
+
+.code_open{
+  display: block;
+}
+
+.codeButton_hide{
+  display: none;
+}
+
 /*フッター*/
 footer {
   height: 65px;

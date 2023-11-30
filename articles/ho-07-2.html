@@ -20,7 +20,7 @@
     <meta property="og:site_name" content="笹錆ログ"/>
     <meta property="og:url" content="https://sabi-log.net/"/>
     <meta property="og:type" content="blog"/>
-    <meta property="og:title" content="sabilog_title - 笹錆ログ"/>
+    <meta property="og:title" content="オタク必修サイト作成 1限 - 笹錆ログ"/>
     <meta property="og:description" content="sabilog_sent"/>
     <meta property="og:image" content="https://res.cloudinary.com/dtifkcohv/image/upload/v1689770783/system%20images/archive/top_image_4_jkjutl.png"/>
     <meta property="og:locale" content="ja_JP"/>
@@ -30,10 +30,11 @@
     <meta name="twitter:description" content="sabilog_sent" />
     <meta name="twitter:image:src" content="sabilog_imgurl" />
 
-    <title>sabilog_title - 笹錆ログ </title>
+    <title>オタク必修サイト作成 1限 - 笹錆ログ </title>
 
     <link rel="stylesheet" media="all" href="../css/article.css">
     <script src="../javascript/hamburg.js"></script>
+    <script src="../javascript/code_hide.js"></script>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0EMMB2N6XP"></script>
@@ -104,6 +105,7 @@
 				</div>
 			</a>
     	</div>
+		<a class="code_all_button" onclick="all_content_open()">コードの表示</a>
 	</div>
 		</div>
 	</div>
@@ -224,7 +226,8 @@
 		<img src="https://res.cloudinary.com/dtifkcohv/image/upload/v1701355474/convert/art-6/file_vtns27.png" class="art-image" />
 		<p>この改行の違いについてはまた後で述べるとして、誕生、質問カテゴリも同様に中見出し、段落で記述していきます。
 		</p>
-		<pre class="code html"><code>&lt;!DOCTYPE html&gt;
+		<a class="code_hide_button" id="code_button" onclick="toggleContent('codeContent1')">コードの表示</a>
+		<pre class="code html"><code class="code_content codeButton_hide" id="codeContent1">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;body&gt;
         &lt;h1&gt;Introduction Card&lt;/h1&gt;
